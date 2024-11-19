@@ -79,13 +79,16 @@ input{
     width: 425px;
     height: 60px;
     background: #FFFFFF;
+    color: #00000000;
     margin: 15px;
     border: 0px;
     border-radius: 10px;
     padding-left: 10px;
-    font-weight: bold;
-    color: #00000000;
     font-size: 24px;
+}
+input::placeholder {
+    color: #0000004D;
+    font-weight: bold;
 }
 
 button{
